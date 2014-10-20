@@ -165,7 +165,7 @@ public class GameBoard {
 			int col = location%COLS;
 			Tile current = board[row][col];
 			if(current == null){
-				int value = random.nextInt(10)<9?3:6;
+				int value = random.nextInt(10)<9?2:4;
 				Tile tile = new Tile(value, getTileX(col), getTileY(row));
 				board[row][col] = tile;
 				notValid = false;

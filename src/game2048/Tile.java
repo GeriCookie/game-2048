@@ -48,47 +48,47 @@ public class Tile {
 	
 	private void drawImage(){
 		Graphics2D g = (Graphics2D)tileImage.getGraphics();
-		if (value == 3){
+		if (value == 2){
 			background = new Color(0xe9e9e9);
 			text = new Color(0x000000);
 		}
-		else if(value == 6){
+		else if(value == 4){
 			background = new Color(0xe6daab);
 			text = new Color(0x000000);
 		}
-		else if(value == 12){
+		else if(value == 8){
 			background = new Color(0xf79d3d);
 			text = new Color(0xffffff);
 		}
-		else if(value == 24){
+		else if(value == 16){
 			background = new Color(0xf28007);
 			text = new Color(0xffffff);
 		}
-		else if(value == 48){
+		else if(value == 32){
 			background = new Color(0xf55e3b);
 			text = new Color(0xffffff);
 		}
-		else if(value == 96){
+		else if(value == 64){
 			background = new Color(0xff0000);
 			text = new Color(0xffffff);
 		}
-		else if(value == 192){
+		else if(value == 128){
 			background = new Color(0xe9de84);
 			text = new Color(0xffffff);
 		}
-		else if(value == 384){
+		else if(value == 256){
 			background = new Color(0xf6e873);
 			text = new Color(0xffffff);
 		}
-		else if(value == 768){
+		else if(value == 512){
 			background = new Color(0xf5e455);
 			text = new Color(0xffffff);
 		}
-		else if(value == 1536){
+		else if(value == 1024){
 			background = new Color(0xf7e12c);
 			text = new Color(0xffffff);
 		}
-		else if(value == 3072){
+		else if(value == 2048){
 			background = new Color(0xffe400);
 			text = new Color(0xffffff);
 		}
